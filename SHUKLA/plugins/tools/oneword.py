@@ -59,7 +59,7 @@ async def alt_lol(xspam: Client, message: Message):
 
 
 
-@app.on_message(cdz(["𝘾𝙃𝘼𝙈𝘼𝙍"])  & (filters.me | filters.user(SUDO_USER)))
+@app.on_message(cdz(["CHAMAR"])  & (filters.me | filters.user(SUDO_USER)))
 async def alt_lol(xspam: Client, message: Message):    
     chat_id = message.chat.id
     RUSH = None
