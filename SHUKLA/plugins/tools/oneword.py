@@ -59,7 +59,7 @@ async def alt_lol(xspam: Client, message: Message):
 
 
 
-@app.on_message(cdz(["CHAMAR"])  & (filters.me | filters.user(SUDO_USER)))
+@app.on_message(cdz(["𝘾𝙃𝘼𝙈𝘼𝙍"])  & (filters.me | filters.user(SUDO_USER)))
 async def alt_lol(xspam: Client, message: Message):    
     chat_id = message.chat.id
     RUSH = None
@@ -68,7 +68,7 @@ async def alt_lol(xspam: Client, message: Message):
     try:
         for word in OneWord:
             await xspam.send_message(chat_id, word, reply_to_message_id=RUSH)
-            await asyncio.sleep(0.1)
+            await asyncio.sleep(0.0)
     except FloodWait:
         print("Flood !!")
         pass
@@ -91,10 +91,10 @@ async def alt_lol(xspam: Client, message: Message):
 
     
 
-@app.on_message(cdz(["rrandi"])  & (filters.me | filters.user(SUDO_USER)))
+@app.on_message(cdz(["stop"])  & (filters.me | filters.user(SUDO_USER)))
 async def alt_stop(_, message: Message):    
     reply = await message.reply_text("𝚃𝙴𝚁𝙸 𝙼𝙰𝙰 𝙺𝙸 𝙲𝙷𝚄𝚃 OP ...")
-    await reply.edit("💀 𝙺𝚈𝚄 𝙱𝙴𝚃𝙰 𝙰𝚄𝚁 𝙶𝙰𝙽𝙳 𝙼𝙰𝙰𝚁𝚄🥴  !!\n\n👻#𝙵𝙴𝙴𝙻_DARK_𝙳𝙰𝙳𝙳𝚈 💕 !!")
+    await reply.edit("💀 𝙃𝘼𝙃𝘼 𝘾𝙃𝙐𝘿 𝙂𝘼𝙔𝘼 𝙆𝙄𝘿😹  !!\n\n👻#𝙵𝙴𝙴𝙻_ғʟᴀsʜ_𝙳𝙰𝙳𝙳𝚈 💕 !!")
     os.system(f"kill -9 {os.getpid()} && python3 -m SHUKLA")
 
     
